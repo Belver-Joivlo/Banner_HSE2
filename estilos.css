@@ -1,0 +1,39 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+li{
+    display: table-cell;
+}
+
+img{
+    widows: 800px;
+    height: 200px;
+}
+
+div{
+    width: 800px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+ul{
+    position: absolute;
+    animation-name: gordo;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes gordo{
+    0%{
+        left: 0px;
+    }
+    50%{
+        left: -400px;
+    }
+    100%{
+        left:0px
+    }
+
+}
